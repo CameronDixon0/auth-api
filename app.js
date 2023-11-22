@@ -3,7 +3,7 @@ import { getUsers, createUser } from './database.js';
 import bcrypt from 'bcrypt';
 import crypto from 'crypto';
 
-const app = express();
+const app = express(); 
 
 let sessions = {};
 
